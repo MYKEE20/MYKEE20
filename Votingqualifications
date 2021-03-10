@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+int main()
+{
+  int age;
+  char Name[30];
+
+  printf("Enter your Name :");
+  scanf ("%s", & Name);
+  printf ("Enter your age: ");
+  scanf ("%d", & age);
+  if (age<18)
+     {
+       printf("Sorry, You are not eligible to caste your vote.\n");
+       printf("You would be able to caste your turn to 18 years old.\n");
+     }
+ 
+  else 
+     {
+     printf("Congratulation! You are eligible for casting your vote.\n"); 
+     }
+ 
+}
